@@ -1,0 +1,21 @@
+.card {
+  background: rgb(217, 202, 202);
+  padding: 16px;
+  border-radius: 8px;
+  /*
+      This CSS variable is defined in the
+      “styles.css” file.
+    */
+  box-shadow: var(--elevation-1);
+}
+
+.productCard {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  /*
+    This CSS variable is defined in the
+    “styles.css” file.
+  */
+  box-shadow: var(--elevation-3);
+}
